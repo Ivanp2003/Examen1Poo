@@ -4,13 +4,14 @@ package main{
 class Main{}
 }
 
-
 package Cursos{
+
 class Matrícula{
 - Estudiante estudiante
 - Curso curso
 - Docente docente
 - nota:double
++ mostrarInformacion()
 + registrarEvaluacion()
 + mostrarDetalle()
 + inscribirEstudiante()
@@ -21,8 +22,6 @@ class Curso{
 - paralelo:String
 - duracionMeses:int
 - precio:Double
-- estudiante:estudiante
-- docente:docente
 + mostrarResumen()
 + asignarDocente(String docente)
 + verificarDocenteAsignado()
@@ -43,8 +42,6 @@ class Estudiante{
 - nombre:String
 - edad:int
 - cedula:String
-+ mostrarDatos()
-+ validarEdad()
 }
 
 class Docente{
