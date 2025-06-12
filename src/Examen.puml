@@ -7,6 +7,10 @@ class Main{}
 
 package Cursos{
 class Matrícula{
+- Estudiante estudiante
+- Curso curso
+- Docente docente
+- nota:double
 + registrarEvaluacion()
 + mostrarDetalle()
 + inscribirEstudiante()
